@@ -1,0 +1,20 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# Downloaded datasets and experiment outputs
+/data/
+/logs/
+/checkpoints/
+/runs/
+*.pth
+*.pt
+*.ckpt
+# Local editor settings and credentials
+.idea/
+.vscode/
+.env
+.env.*
+Thumbs.db
+.DS_Store
